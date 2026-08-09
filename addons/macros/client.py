@@ -315,4 +315,4 @@ def _run_macro(window, idx):
 # The one line that answers "how does it know it goes after Player
 # Admin" -- explicitly, right here, rather than anything in core needing
 # to know this addon exists.
-register_tab("macros", "Macros", _build_macros_tab, after="admin")
+register_tab("macros", "Macros", _build_macros_tab)
